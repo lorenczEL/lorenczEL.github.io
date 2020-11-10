@@ -1,0 +1,343 @@
+
+        @font-face {
+            font-family: "Roboto", sans-serif;
+            src: url(/fonts/roboto/Roboto-Medium.ttf);
+        }
+
+        html {
+            background: rgb(218, 223, 188);
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: left;
+            line-height: 100px;
+            text-transform: none;
+            color: black;
+
+        }
+
+        #bootnav_id {
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: left;
+            /*line-height: 24px;*/
+            /*text-transform: none;*/
+            /*color: black;*/
+        }
+
+        .havn_up_grids {
+            background-color: rgb(218, 223, 188);
+            color: white;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1.61% 2.61% 0% 91.56% 0% 2.61% 1.61%;
+            grid-gap: 0px 0px;
+
+            /*justify-content: center;
+            align-content: center;
+            1.61% 2.61% 3.52% 79.3% 3.52% 2.61% 1.61%*/
+        }
+
+        .havn_up_grids div {
+            /* background-color: rgb(113, 243, 163);
+            color: rgb(46, 10, 10);*/
+
+        }
+
+        .h_left_1 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .h_left_2 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .h_left_3 {
+            /* background-color: rgb(219, 178, 127);*/
+
+        }
+
+        .h_up_mid .havn_pic {
+
+            display: flex;
+
+            background-image: url("/images/1350es_AdobeStock_295591946.jpg");
+            border: solid 4px rgb(243, 133, 23);
+            border-radius: 0px;
+            height: 190px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*position: ;*/
+            margin-top: 70px;
+
+        }
+
+        /*.havn_global_nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding:;
+  background-color:;
+  border:;
+        }*/
+
+        .h_right_1 {
+            /*background-color: rgb(219, 178, 127);*/
+
+        }
+
+        .h_right_2 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .h_right_3 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .mid_grids {
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1.61% 2.61% 3.52% 84.52% 3.52% 2.61% 1.61%;
+            grid-gap: 0px 0px;
+
+        }
+
+        .mid_grids div {
+            /* background-color: darkslateblue;
+            color: rgb(240, 233, 233);*/
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            /*font-weight: ;*/
+            text-align: left;
+            line-height: 40px;
+            text-transform: none;
+            color: black;
+        }
+
+        .m_left_1 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .m_left_2 {
+            background-color: rgb(255, 207, 81);
+            /*background-color: rgb(232, 142, 1);*/
+            /*background-color: rgb(255, 207, 81);*/
+        }
+
+        .m_left_3 {
+            /* background-color: rgb(232, 142, 1);*/
+            background-color: rgb(243, 133, 23);
+        }
+
+        .m_mid_mid {
+            background-color: rgb(243, 133, 23);
+            ;
+        }
+
+        /* !!! SPECIÁLIS BOXTÁRODIVEK ID-I, OLDALANKÉNTI KÜLÖNBÖZHETNEK*/
+        #m_mid_mid_box1_idabout {
+            max-width: 100%;
+        }
+
+        #m_mid_mid_boxtarolo_idform {
+            background: rgb(218, 223, 188);
+        }
+
+        #m_mid_mid_box1_idform {
+            background: rgb(218, 223, 188);
+        }
+
+        #m_mid_mid_box2_idform {
+            background: rgb(218, 223, 188);
+        }
+/* !!! SPECIÁLIS BOXTÁRODIVEK ID-I, OLDALANKÉNTI KÜLÖNBÖZHETNEK*/
+        
+        .m_mid_mid_boxtarolo {
+            background: rgb(218, 223, 188);
+            /*background: rgb(209, 214, 220);*/
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            border: solid 9px rgb(218, 223, 188);
+            border-radius: 4px;
+        }
+
+        .m_mid_mid_boxtarolo div {
+            margin: 0px;
+
+        }
+
+        .m_mid_mid_box1 {
+            max-width: 46.5%;
+            background-color: rgb(249, 250, 210);
+            padding: 10px;
+            /*border: solid 6px rgb(218, 223, 188);
+            border-radius: 6px;*/
+        }
+
+        .m_mid_mid_box2 {
+            max-width: 46.5%;
+            background-color: rgb(249, 250, 210);
+            padding: 10px;
+            /*border: solid 6px rgb(218, 223, 188);
+            border-radius: 6px;*/
+        }
+
+        .m_right_1 {
+            /*background-color: rgb(255, 207, 81);*/
+            background-color: rgb(243, 133, 23);
+        }
+
+        .m_right_2 {
+            background-color: rgb(255, 207, 81);
+            /*background-color: rgb(232, 142, 1);*/
+        }
+
+        .m_right_3 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .havn_local_nav {
+
+            /* background: rgb(218, 223, 188);*/
+            /*background: rgb(170, 195, 189);*/
+            color: black;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1.61% 2.61% 3.52% 84.52% 3.52% 2.61% 1.61%;
+            grid-gap: 0px 0px;
+        }
+
+        .havn_local_nav div {
+            /* background-color: rgb(193, 253, 187);
+            color: rgb(238, 225, 225);*/
+        }
+
+        .loc_left_1 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .loc_left_2 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .loc_left_3 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .loc_mid_local_nav {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .loc_right_1 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .loc_right_2 {
+            background-color: rgb(255, 207, 81);
+        }
+
+        .loc_right_3 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .foot_grids {
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1.61% 2.61% 0% 91.56% 0% 2.61% 1.61%;
+            grid-gap: 0px 0px;
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            text-align: left;
+            line-height: 30px;
+            text-transform: none;
+            /*color: rgb(218, 223, 188);*/
+            color: rgb(232, 241, 248);
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+        }
+
+        .foot_grids div {
+            /* background-color: darkslateblue;
+            color: rgb(228, 197, 197);*/
+
+        }
+
+        .f_left_1 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        .f_left_2 {
+            background-color: rgb(255, 207, 81);
+            /*background-color: rgb(255, 207, 81);*/
+
+        }
+
+        .f_left_3 {
+            /*background-color: rgb(255, 207, 81);*/
+            background-color: rgb(232, 142, 1);
+        }
+
+        .f_mid_foot {
+            background-color: rgb(243, 133, 23);
+            /* background-color: rgb(232, 142, 1);
+            border: solid 2px rgb(218, 223, 188);*/
+
+
+        }
+
+        .bordered {
+            border-top: solid 3px rgb(243, 133, 23);
+        }
+
+        .f_mid_foot_boxtarolo {
+
+            background-color: rgb(243, 133, 23);
+            height: 170px;
+            padding: 0px 15px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            align-content: flex-end;
+        }
+
+        .f_mid_foot_boxtarolo div {}
+
+        .f_mid_foot_box1 {}
+
+        .f_mid_foot_box2 {}
+
+        .f_mid_foot_box3 {}
+
+        .f_mid_foot_box4 {}
+
+        .f_mid_foot_box5 {}
+
+        .f_mid_foot_box6 {}
+
+        .f_mid_foot_box7 {}
+
+        .f_mid_foot_box8 {}
+
+        .f_mid_foot_box9 {}
+
+        .f_right_1 {
+            /*background-color: rgb(255, 207, 81);*/
+            background-color: rgb(232, 142, 1);
+        }
+
+        .f_right_2 {
+            background-color: rgb(255, 207, 81);
+            /*background-color: rgb(232, 142, 1)*/
+        }
+
+        .f_right_3 {
+            background-color: rgb(52, 58, 64);
+        }
+
+        element.style {}
